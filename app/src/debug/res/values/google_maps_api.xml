@@ -1,0 +1,17 @@
+<resources>
+    <!--
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=43:F4:B4:59:40:06:72:62:51:F8:10:DC:77:49:55:DF:07:3E:96:68%3Bcom.mediamethods.geofencing
+
+    You can also add your credentials to an existing key, using this line:
+    43:F4:B4:59:40:06:72:62:51:F8:10:DC:77:49:55:DF:07:3E:96:68;com.mediamethods.geofencing
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyBx7-a1n8MonaOOFAX2b3wQc64pZNLIvsM</string>
+</resources>
