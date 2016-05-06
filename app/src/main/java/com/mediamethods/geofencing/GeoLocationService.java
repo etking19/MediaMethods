@@ -217,7 +217,7 @@ public class GeoLocationService extends Service implements
                     UPDATE_INTERVAL_IN_MILLISECONDS = 300000;
                 }
 
-                /*
+
                 if (FASTEST_UPDATE_INTERVAL_IN_MILLISECONDS != UPDATE_INTERVAL_IN_MILLISECONDS / 2) {
                     // previous setting changed
                     FASTEST_UPDATE_INTERVAL_IN_MILLISECONDS = UPDATE_INTERVAL_IN_MILLISECONDS / 2;
@@ -227,7 +227,6 @@ public class GeoLocationService extends Service implements
                     LocationServices.FusedLocationApi.requestLocationUpdates(
                             mGoogleApiClient, mLocationRequest, listener);
                 }
-                */
 
 
             } catch (Exception ex) {
